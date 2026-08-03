@@ -1,0 +1,57 @@
+/* ─────────────────────────────────────────────
+   tokens.css
+   Design tokens — all CSS custom properties.
+───────────────────────────────────────────── */
+
+:root {
+  /* ── Palette ── */
+  --slate-50:  #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+  --slate-950: #020617;
+
+  --orange-50:  #fff7ed;
+  --orange-100: #ffedd5;
+  --orange-200: #fed7aa;
+  --orange-300: #fdba74;
+  --orange-400: #fb923c;
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+  --orange-700: #c2410c;
+  --orange-800: #9a3412;
+  --orange-900: #7c2d12;
+  --orange-950: #431407;
+
+  /* ── Semantic ── */
+  --color-bg:        #000000;
+  --color-bg-dark:   #000000;
+  --color-bg-mid:    #050505;
+  --color-text:      #ffffff;
+  --color-text-muted:var(--slate-400);
+  --color-accent:    var(--orange-600);
+  --color-accent-lt: var(--orange-400);
+  --color-border:    rgba(234, 88, 12, 0.3); /* Orange hint */
+
+  /* ── Typography ── */
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-serif:   'Playfair Display', Georgia, serif;
+  --font-body:    'Libre Baskerville', serif;
+
+  /* ── Spacing ── */
+  --section-px: clamp(2rem, 6vw, 4rem);
+  --section-py: clamp(4rem, 8vw, 6.25rem);
+
+  /* ── Motion ── */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast:   150ms;
+  --duration-normal: 300ms;
+  --duration-slow:   500ms;
+}
